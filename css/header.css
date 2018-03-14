@@ -1,0 +1,559 @@
+@import "hamburgers.min.css";
+
+@media (max-width: 767px) {
+    .padding-off-mobile {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    header .navbar {
+        border: 0px solid transparent;
+        z-index: 100;
+        margin-bottom: 0;
+    }
+    header .navbar-toggle {
+        position: relative;
+        float: left;
+        padding: 0 0 0 0;
+        margin-top: 23px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        border-radius: 0px;
+        z-index: 100;
+    }
+    header .hamburger-inner, 
+    header .hamburger-inner:after,
+    header .hamburger-inner:before {
+        display: block;
+        width: 30px;
+        height: 4px;
+        border-radius: 20px;
+        background-color: #50356c;
+    }
+    header .navbar-brand {
+        float: none;
+        height: auto;
+        padding: 0;
+        margin: 23px 0 0 0;
+        width: 100%;
+        display: block;
+    }
+    header .carrinho .qtd {
+        margin-top: 13px;
+    }
+    header .carrinho .qtd img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header .carrinho .qtd p {
+        color: #b3b3b3;
+        font-family: 'Droid Sans';
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 13px;
+        line-height: 13px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    header .carrinho .qtd p span {
+        color: #d73a1e;
+        font-weight: bold;
+        font-style: normal;
+    }
+    header .frete {
+        background-color: #ececec;
+        width: 100%;
+        text-align: center;
+        padding: 7px 0;
+        margin-top: 5px;
+    }
+    header .frete p {
+        color: #646464;
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 20px;
+        font-style: italic;
+    }
+    header .frete p span {
+        font-size: 13px;
+        line-height: 13px;
+    }
+    header .menu {
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        padding: 0;
+    }
+    .header .navbar-collapse {
+        max-height: 400px;
+    }
+    header .nLeft li a {
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        color: #fff;
+        font-size: 15px;
+        line-height: 15px;
+        font-style: italic;
+        padding-bottom: 11px;
+        padding-top: 13px;
+        border-bottom: solid 1px #6a5483;
+    }
+    header .nLeft li > a:focus, 
+    header .nLeft li > a:hover {
+        background-color: transparent;
+    }
+    header .nLeft li a span {
+        display: none;
+    }
+    header .nLeft {
+        margin: 84px 0 0 0;
+        background-color: #523468;
+    }
+    header .busca {
+        margin-top: 15px;
+        position: fixed;
+        z-index: 100;
+        margin-left: 40px;
+        display: none;
+    }
+    header .busca .form-control {
+        background: url(../img/lupa.jpg) 12px no-repeat #ffffff;
+        padding: 10px 24px;
+        height: 39px;
+        text-indent: 10px;
+        border: 1px solid #333;
+        font-family: 'Droid Sans';
+        font-weight: normal;
+        font-style: normal;
+    }
+    header .nRight {
+        background-color: #523468;
+        margin: 0;
+        text-align: center;
+        padding-top: 20px;
+    }
+    header .nRight li {
+        display: inline-block;
+    }
+    header .nRight li a {
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        color: #fff;
+        font-size: 15px;
+        line-height: 15px;
+        font-style: italic;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+    header .nRight li > a:focus, 
+    header .nRight li > a:hover {
+        background-color: transparent;
+    }
+    header .nRight li .nav-sign {
+        color: rgba(255,255,255,0.6);
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 13px;
+        font-style: italic;
+        padding-top: 16px;
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    header .navbar {
+        border: 0px solid transparent;
+        margin-bottom: 0;
+    }
+    header .navbar-brand {
+        float: none;
+        height: auto;
+        padding: 0;
+        margin: 30px 0;
+    }
+    header .busca {
+        margin-top: 30px;
+    }
+    header .busca .form-control {
+        background: url(../img/lupa.jpg) 12px no-repeat #ffffff;
+        padding: 10px 24px;
+        height: 39px;
+        text-indent: 10px;
+        border: 1px solid #333;
+        font-family: 'Droid Sans';
+        font-weight: normal;
+        font-style: normal;
+    }
+    header .carrinho div {
+        margin-top: 30px;
+    }
+    header .carrinho div,
+    header .carrinho .qtd img,
+    header .carrinho .qtd p {
+        float: left;
+    }
+    header .carrinho .frete {
+        margin-right: 15px;
+        margin-left: 0px;
+    }
+    header .carrinho .frete p {
+        color: #dd3a1e;
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 17px;
+        font-style: italic;
+    }
+    header .carrinho .frete p span {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    header .carrinho .qtd img {
+        margin-right: 0px;
+    }
+    header .carrinho .qtd p {
+        color: #b3b3b3;
+        font-family: 'Droid Sans';
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    header .carrinho .qtd p span {
+        color: #d73a1e;
+        font-weight: bold;
+        font-style: normal;
+    }
+    header .menu {
+        background-color: #523468;
+    }
+    header .nLeft {
+        float: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    header .nLeft li a {
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        color: #fff;
+        font-size: 12px;
+        line-height: 12px;
+        font-style: italic;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+    header .nLeft li > a:focus, 
+    header .nLeft li > a:hover {
+        background-color: #422a53;
+    }
+    header .nRight {
+        float: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    header .nRight li a {
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        color: #fff;
+        font-size: 12px;
+        line-height: 12px;
+        font-style: italic;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+    header .nRight li > a:focus, 
+    header .nRight li > a:hover {
+        background-color: transparent;
+    }
+    header .nRight li .nav-sign {
+        color: rgba(255,255,255,0.6);
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 13px;
+        font-style: italic;
+        padding-top: 16px;
+        display: block;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    header .navbar {
+        border: 0px solid transparent;
+        margin-bottom: 0px;
+    }
+    header .navbar-brand {
+        float: none;
+        height: auto;
+        padding: 0;
+        margin: 30px 0;
+    }
+    header .busca {
+        margin-top: 30px;
+    }
+    header .busca .form-control {
+        background: url(../img/lupa.jpg) 12px no-repeat #ffffff;
+        padding: 10px 24px;
+        height: 39px;
+        text-indent: 10px;
+        border: 1px solid #333;
+        font-family: 'Droid Sans';
+        font-weight: normal;
+        font-style: normal;
+    }
+    header .carrinho div {
+        margin-top: 30px;
+    }
+    header .carrinho div,
+    header .carrinho .qtd img,
+    header .carrinho .qtd p {
+        float: left;
+    }
+    header .carrinho .frete {
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+    header .carrinho .frete p {
+        color: #dd3a1e;
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 20px;
+        font-style: italic;
+    }
+    header .carrinho .frete p span {
+        font-size: 13px;
+        line-height: 13px;
+    }
+    header .carrinho .qtd img {
+        margin-right: 20px;
+    }
+    header .carrinho .qtd p {
+        color: #b3b3b3;
+        font-family: 'Droid Sans';
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    header .carrinho .qtd p span {
+        color: #d73a1e;
+        font-weight: bold;
+        font-style: normal;
+    }
+    header .menu {
+        background-color: #523468;
+    }
+    header .nLeft {
+        float: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    header .nLeft li a {
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        color: #fff;
+        font-size: 14px;
+        line-height: 14px;
+        font-style: italic;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+    header .nLeft li > a:focus, 
+    header .nLeft li > a:hover {
+        background-color: #422a53;
+    }
+    header .nRight {
+        float: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    header .nRight li a {
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        color: #fff;
+        font-size: 14px;
+        line-height: 14px;
+        font-style: italic;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+    header .nRight li > a:focus, 
+    header .nRight li > a:hover {
+        background-color: transparent;
+    }
+    header .nRight li .nav-sign {
+        color: rgba(255,255,255,0.6);
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 13px;
+        font-style: italic;
+        padding-top: 16px;
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    header .navbar {
+        border: 0px solid transparent;
+        margin-bottom: 0px;
+    }
+    header .navbar-brand {
+        float: none;
+        height: auto;
+        padding: 0;
+        margin: 30px 0;
+    }
+    header .busca {
+        margin-top: 30px;
+    }
+    header .busca .form-control {
+        background: url(../img/lupa.jpg) 12px no-repeat #ffffff;
+        padding: 10px 24px;
+        height: 39px;
+        text-indent: 10px;
+        border: 1px solid #333;
+        font-family: 'Droid Sans';
+        font-weight: normal;
+        font-style: normal;
+    }
+    header .carrinho div {
+        margin-top: 30px;
+    }
+    header .carrinho div,
+    header .carrinho .qtd img,
+    header .carrinho .qtd p {
+        float: left;
+    }
+    header .carrinho .frete {
+        margin-right: 30px;
+        margin-left: 60px;
+    }
+    header .carrinho .frete p {
+        color: #dd3a1e;
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 20px;
+        font-style: italic;
+    }
+    header .carrinho .frete p span {
+        font-size: 13px;
+        line-height: 13px;
+    }
+    header .carrinho .qtd img {
+        margin-right: 20px;
+    }
+    header .carrinho .qtd p {
+        color: #b3b3b3;
+        font-family: 'Droid Sans';
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    header .carrinho .qtd p span {
+        color: #d73a1e;
+        font-weight: bold;
+        font-style: normal;
+    }
+    header .menu {
+        background-color: #523468;
+    }
+    header .nLeft {
+        float: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    header .nLeft li a {
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        color: #fff;
+        font-size: 15px;
+        line-height: 15px;
+        font-style: italic;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+    header .nLeft li > a:focus, 
+    header .nLeft li > a:hover {
+        background-color: #422a53;
+    }
+    header .nRight {
+        float: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    header .nRight li a {
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        color: #fff;
+        font-size: 15px;
+        line-height: 15px;
+        font-style: italic;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+    header .nRight li > a:focus, 
+    header .nRight li > a:hover {
+        background-color: transparent;
+    }
+    header .nRight li .nav-sign {
+        color: rgba(255,255,255,0.6);
+        font-family: 'Droid Serif';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 13px;
+        font-style: italic;
+        padding-top: 16px;
+        display: block;
+    }
+}
