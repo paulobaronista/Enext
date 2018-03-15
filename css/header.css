@@ -560,3 +560,8 @@
         display: block;
     }
 }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    header .menu {
+        margin-top: 0px;
+    }
+}
