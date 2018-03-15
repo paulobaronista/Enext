@@ -1,23 +1,101 @@
-@import "fonts.css";
-@import "header.css";
-@import "footer.css";
-@import "home.css";
-
 @media (max-width: 767px) {
     .padding-off-mobile {
         padding-left: 0px;
         padding-right: 0px;
     }
+    section .titulo {
+        margin-top: 30px;
+        text-align: center;
+    }
+    section .titulo p {
+        font-family: 'Droid Sans C';
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 700;
+        color: #000;
+    }
+    section .box {
+        margin-top: 40px;
+    }
+    section .box a:hover,
+    section .box a:focus {
+        text-decoration: none;
+    }
+    section .box p {
+        font-family: 'Droid Sans C';
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 700;
+        color: #000;
+    }
+    section .box p span {
+        color: #dc4a1e;
+    }
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-
+    section .titulo {
+        margin-top: 60px;
+    }
+    section .titulo p {
+        font-family: 'Droid Sans C';
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 700;
+        color: #000;
+    }
+    section .box {
+        margin-top: 75px;
+    }
+    section .box a:hover,
+    section .box a:focus {
+        text-decoration: none;
+    }
+    section .box p {
+        font-family: 'Droid Sans C';
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 700;
+        color: #000;
+    }
+    section .box p span {
+        color: #dc4a1e;
+    }
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    section .titulo {
+        margin-top: 60px;
+    }
+    section .titulo p {
+        font-family: 'Droid Sans C';
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 700;
+        color: #000;
+    }
+    section .box {
+        margin-top: 75px;
+    }
+    section .box a:hover,
+    section .box a:focus {
+        text-decoration: none;
+    }
+    section .box img {
+        padding: 0 40px;
+    }
+    section .box p {
+        font-family: 'Droid Sans C';
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 700;
+        color: #000;
+    }
+    section .box p span {
+        color: #dc4a1e;
+    }
 }
 
 /* Large desktops and laptops */

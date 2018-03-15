@@ -1,0 +1,496 @@
+@media (max-width: 767px) {
+    .padding-off-mobile {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    footer {
+        background-color: #e6e6e6;
+        padding: 10px 0 20px 0;
+        margin-top: 80px;
+    }
+    footer .boxNew {
+        background-color: #fff;
+        padding: 12px 10px 0 10px;
+        width: 100%;
+        float: left;
+    }
+    footer .boxNew span,
+    footer .form-inline {
+        display: table;
+        margin: 0 auto; 
+    }
+    footer .boxNew p:nth-child(1) {
+        font-family: 'Droid Serif';
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+        color: #000;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+    footer .boxNew p:nth-child(2) {
+        font-family: 'Droid Sans';
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+        color: #000;
+        margin-bottom: 20px;
+    }
+    footer .boxNew .form-control {
+        width: 155px;
+        border: 1px solid #333;
+        font-family: 'Droid Sans';
+        font-weight: normal;
+        font-style: normal;
+    }
+    footer .boxNew .form-group {
+        display: inline-block;
+    }
+    footer .boxNew button,
+    footer .boxNew button:hover {
+        background-color: #d73a1e;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    footer .redes ul {
+        padding: 0;
+        margin: 0;
+        max-width: 360px;
+    }
+    footer .redes ul li {
+        list-style: none;
+        float: left;
+        padding: 5px 15px;
+    }
+    footer .redes ul li a {
+        color: #d83a1e;
+        font-family: 'Droid Sans';
+        font-size: 18px;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+    footer .redes ul li a:hover {
+        text-decoration: none;
+    }
+    footer .links-social {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    footer .links-social ul {
+        padding: 0;
+        margin: 0 auto;
+        display: table
+    }
+    footer .links-social ul li {
+        list-style: none;
+        float: left;
+        margin: 0 5px;
+    }
+    footer .links-social ul li:first-child {
+        margin: 0 5px 0 0;
+    }
+    footer .links-social ul li a {
+        background-color: #53336a;
+        color: #FFF;
+        font-size: 20px;
+        line-height: 10px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        width: 35px;
+        height: 35px;
+    }
+    footer .links-social ul li a:hover {
+        text-decoration: none;
+    }
+    footer .links-social .fa-facebook {
+        padding: 13px 0 0 11px;
+    }
+    footer .links-social .fa-twitter {
+        padding: 13px 0 0 9px;
+    }
+    footer .links-social .fa-pinterest-p {
+        padding: 13px 0 0 11px;
+    }
+    footer .links-social .fa-tumblr {
+        padding: 13px 0 0 12px;
+    }
+    footer .links-social .fa-google-plus {
+        padding: 13px 0 0 7px;
+    }
+    footer .copyright p {
+        color: #666666;
+        font-family: 'Droid Sans';
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .padding-off-mobile {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    footer {
+        background-color: #e6e6e6;
+        padding: 10px 0 20px 0;
+        margin-top: 80px;
+    }
+    footer .boxNew {
+        background-color: #fff;
+        padding: 12px 10px;
+        width: 100%;
+        float: left;
+    }
+    footer .boxNew span,
+    footer .form-inline {
+        display: table;
+        margin: 0 auto; 
+    }
+    footer .boxNew p:nth-child(1) {
+        font-family: 'Droid Serif';
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+        color: #000;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+    footer .boxNew p:nth-child(2) {
+        font-family: 'Droid Sans';
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+        color: #000;
+        margin-bottom: 20px;
+    }
+    footer .boxNew .form-control {
+        width: 155px;
+        border: 1px solid #333;
+        font-family: 'Droid Sans';
+        font-weight: normal;
+        font-style: normal;
+    }
+    footer .boxNew .form-group {
+        display: inline-block;
+    }
+    footer .boxNew button,
+    footer .boxNew button:hover {
+        background-color: #d73a1e;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    footer .redes ul {
+        padding: 0;
+        margin: 0;
+        max-width: 360px;
+    }
+    footer .redes ul li {
+        list-style: none;
+        float: left;
+        padding: 5px 15px;
+    }
+    footer .redes ul li a {
+        color: #d83a1e;
+        font-family: 'Droid Sans';
+        font-size: 18px;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+    footer .redes ul li a:hover {
+        text-decoration: none;
+    }
+    footer .links-social {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    footer .links-social ul {
+        padding: 0;
+        margin: 0 auto;
+        display: table
+    }
+    footer .links-social ul li {
+        list-style: none;
+        float: left;
+        margin: 0 5px;
+    }
+    footer .links-social ul li:first-child {
+        margin: 0 5px 0 0;
+    }
+    footer .links-social ul li a {
+        background-color: #53336a;
+        color: #FFF;
+        font-size: 20px;
+        line-height: 10px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        width: 35px;
+        height: 35px;
+    }
+    footer .links-social ul li a:hover {
+        text-decoration: none;
+    }
+    footer .links-social .fa-facebook {
+        padding: 13px 0 0 11px;
+    }
+    footer .links-social .fa-twitter {
+        padding: 13px 0 0 9px;
+    }
+    footer .links-social .fa-pinterest-p {
+        padding: 13px 0 0 11px;
+    }
+    footer .links-social .fa-tumblr {
+        padding: 13px 0 0 12px;
+    }
+    footer .links-social .fa-google-plus {
+        padding: 13px 0 0 7px;
+    }
+    footer .copyright p {
+        color: #666666;
+        font-family: 'Droid Sans';
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    footer {
+        background-color: #e6e6e6;
+        padding: 50px 0;
+        margin-top: 80px;
+    }
+    footer .boxNew {
+        background-color: #fff;
+        padding: 30px;
+        width: 415px;
+        float: left;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+    footer .boxNew p:nth-child(1) {
+        font-family: 'Droid Serif';
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+        color: #000;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+    footer .boxNew p:nth-child(2) {
+        font-family: 'Droid Sans';
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+        color: #000;
+        margin-bottom: 20px;
+    }
+    footer .boxNew .form-control {
+        width: 245px;
+        border: 1px solid #333;
+        font-family: 'Droid Sans';
+        font-weight: normal;
+        font-style: normal;
+    }
+    footer .boxNew button,
+    footer .boxNew button:hover {
+        background-color: #d73a1e;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    footer .redes ul {
+        padding: 0;
+        margin: 0;
+        max-width: 360px;
+    }
+    footer .redes ul li {
+        list-style: none;
+        float: left;
+        padding: 5px 15px;
+    }
+    footer .redes ul li a {
+        color: #d83a1e;
+        font-family: 'Droid Sans';
+        font-size: 18px;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+    footer .redes ul li a:hover {
+        text-decoration: none;
+    }
+    footer .links-social {
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+    footer .links-social ul {
+        padding: 0;
+        margin: 0;
+    }
+    footer .links-social ul li {
+        list-style: none;
+        float: left;
+        margin: 0 15px;
+    }
+    footer .links-social ul li:first-child {
+        margin: 0 15px 0 0;
+    }
+    footer .links-social ul li a {
+        background-color: #53336a;
+        color: #FFF;
+        font-size: 20px;
+        line-height: 10px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        width: 35px;
+        height: 35px;
+    }
+    footer .links-social ul li a:hover {
+        text-decoration: none;
+    }
+    footer .links-social .fa-facebook {
+        padding: 13px 0 0 11px;
+    }
+    footer .links-social .fa-twitter {
+        padding: 13px 0 0 9px;
+    }
+    footer .links-social .fa-pinterest-p {
+        padding: 13px 0 0 11px;
+    }
+    footer .links-social .fa-tumblr {
+        padding: 13px 0 0 12px;
+    }
+    footer .links-social .fa-google-plus {
+        padding: 13px 0 0 7px;
+    }
+    footer .copyright p {
+        color: #666666;
+        font-family: 'Droid Sans';
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    footer {
+        background-color: #e6e6e6;
+        padding: 50px 0;
+        margin-top: 80px;
+    }
+    footer .boxNew {
+        background-color: #fff;
+        padding: 30px;
+        width: 415px;
+        float: left;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+    footer .boxNew p:nth-child(1) {
+        font-family: 'Droid Serif';
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+        color: #000;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+    footer .boxNew p:nth-child(2) {
+        font-family: 'Droid Sans';
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+        color: #000;
+        margin-bottom: 20px;
+    }
+    footer .boxNew .form-control {
+        width: 245px;
+        border: 1px solid #333;
+        font-family: 'Droid Sans';
+        font-weight: normal;
+        font-style: normal;
+    }
+    footer .boxNew button,
+    footer .boxNew button:hover {
+        background-color: #d73a1e;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    footer .redes ul {
+        padding: 0;
+        margin: 0;
+        max-width: 360px;
+    }
+    footer .redes ul li {
+        list-style: none;
+        float: left;
+        padding: 5px 15px;
+    }
+    footer .redes ul li a {
+        color: #d83a1e;
+        font-family: 'Droid Sans';
+        font-size: 18px;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+    footer .redes ul li a:hover {
+        text-decoration: none;
+    }
+    footer .links-social {
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+    footer .links-social ul {
+        padding: 0;
+        margin: 0;
+    }
+    footer .links-social ul li {
+        list-style: none;
+        float: left;
+        margin: 0 15px;
+    }
+    footer .links-social ul li:first-child {
+        margin: 0 15px 0 0;
+    }
+    footer .links-social ul li a {
+        background-color: #53336a;
+        color: #FFF;
+        font-size: 20px;
+        line-height: 10px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        width: 35px;
+        height: 35px;
+    }
+    footer .links-social ul li a:hover {
+        text-decoration: none;
+    }
+    footer .links-social .fa-facebook {
+        padding: 13px 0 0 11px;
+    }
+    footer .links-social .fa-twitter {
+        padding: 13px 0 0 9px;
+    }
+    footer .links-social .fa-pinterest-p {
+        padding: 13px 0 0 11px;
+    }
+    footer .links-social .fa-tumblr {
+        padding: 13px 0 0 12px;
+    }
+    footer .links-social .fa-google-plus {
+        padding: 13px 0 0 7px;
+    }
+    footer .copyright p {
+        color: #666666;
+        font-family: 'Droid Sans';
+        font-size: 18px;
+        line-height: 18px;
+    }
+}

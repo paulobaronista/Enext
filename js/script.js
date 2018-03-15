@@ -8,7 +8,25 @@ if (hamburgers.length > 0) {
         }, false);
     });
 }
-$('.hamburger').click(function() {
-    $(this).toggleClass('active');
-    $('.busca').toggle();
+
+$(document).ready(function(){
+    $('.hamburger').click(function() {
+        $(this).toggleClass('active');
+        $('.busca').toggle();
+    });
+
+    $('#ModalProdutos').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);
+        var id = button.data('produto-id');
+        var modal = $(this);
+        //console.log(id);
+        $.get('potions.json', function(potions){
+           //console.log(potions.potions[id]) 
+           var potion = potions.potions[id];
+            //console.log(potion.image);
+            $('#produto-image').attr('src', 'img/products/' + potion.image);
+            $('#produto-nome').text(potion.name);
+            $('#produtos-ingredients').html('<li>' + potion.ingredients.join('</li><li>') + '</li>');
+        },'json');
+    });
 });

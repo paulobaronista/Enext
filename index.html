@@ -7,6 +7,7 @@
         <title>Merlin's Potions</title>
         <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
         <link href="//fonts.googleapis.com/css?family=Droid+Sans" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -17,6 +18,7 @@
 <![endif]-->
     </head>
     <body>
+
         <header>
             <nav class="navbar">
                 <div class="container">
@@ -79,38 +81,39 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 titulo">
                         <p>Potions</p>
                     </div>
+
                     <div class="col-xs-6 col-sm-4 col-md-4 text-center box">
-                        <a href="">
+                        <a href="#" data-toggle="modal" data-produto-id="1" data-target="#ModalProdutos">
                             <img class="img-responsive center-block" title="Aging Potion" alt="Aging Potion" src="img/products/aging-potion.png">
                             <p>Aging Potion - <span>29.99</span></p>
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-4 text-center box">
-                        <a href="">
+                        <a href="#" data-toggle="modal" data-produto-id="2" data-target="#ModalProdutos">
                             <img class="img-responsive center-block" title="Bulgeye Potion" alt="Bulgeye Potion" src="img/products/bulgeye-potion.png">
                             <p>Bulgeye Potion - <span>19.99</span></p>
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-4 text-center box">
-                        <a href="">
+                        <a href="#" data-toggle="modal" data-produto-id="3" data-target="#ModalProdutos">
                             <img class="img-responsive center-block" title="Dragon Tonic" alt="Dragon Tonic" src="img/products/dragon-tonic.png">
                             <p>Dragon Tonic - <span>64.99</span></p>
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-4 text-center box">
-                        <a href="">
+                        <a href="#" data-toggle="modal" data-produto-id="4" data-target="#ModalProdutos">
                             <img class="img-responsive center-block" title="Love Potion" alt="Love Potion" src="img/products/love-potion.png">
                             <p>Love Potion - <span>29.99</span></p>
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-4 text-center box">
-                        <a href="">
+                        <a href="#" data-toggle="modal" data-produto-id="5" data-target="#ModalProdutos">
                             <img class="img-responsive center-block" title="Polyjuice Potion" alt="Polyjuice Potion" src="img/products/polyjuice-potion.png">
                             <p>Polyjuice Potion - <span>99.99</span></p>
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-4 text-center box">
-                        <a href="">
+                        <a href="#" data-toggle="modal" data-produto-id="6" data-target="#ModalProdutos">
                             <img class="img-responsive center-block" title="Sleeping Draught" alt="Sleeping Draught" src="img/products/sleeping-draught.png">
                             <p>Sleeping Draught - <span>29.99</span></p>
                         </a>
@@ -119,11 +122,71 @@
             </div>
         </section>
 
-
-
         <footer>
-
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-push-6">
+                        <div class="boxNew">
+                            <span>
+                                <p>Sign up for our Newsletter</p>
+                                <p>Sign up for our newsletter & get exclusive discounts!</p>
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="" placeholder="Enter your email">
+                                    </div>
+                                    <button type="submit" class="btn"> Submit</button>
+                                </form>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6">
+                        <div class="col-xs-12 col-sm-12 col-md-12 redes padding-off hidden-sm hidden-xs">
+                            <ul>
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="#">Returns</a></li>
+                                <li><a href="#">Carrers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 links-social">
+                            <ul>
+                                <li><a href="#" class="fa fa-facebook fa-2x"></a></li>
+                                <li><a href="#" class="fa fa-twitter fa-2x"></a></li>
+                                <li><a href="#" class="fa fa-pinterest-p fa-2x"></a></li>
+                                <li><a href="#" class="fa fa-tumblr fa-2x"></a></li>
+                                <li><a href="#" class="fa fa-google-plus fa-2x"></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 copyright">
+                            <p>&copy; 2015 Merlin's Potions. All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
+
+        <!-- Modal Produtos -->
+        <div class="modal fade" id="ModalProdutos" tabindex="-1" role="dialog" aria-labelledby="ModalProdutos">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img id="produto-image" src="img/products/aging-potion.png">
+                        <p id="produto-nome"></p>
+                        <ul id="produtos-ingredients"></ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
