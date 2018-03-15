@@ -26,6 +26,8 @@ $(document).ready(function(){
             //console.log(potion.image);
             $('#produto-image').attr('src', 'img/products/' + potion.image);
             $('#produto-nome').text(potion.name);
+            $('#produto-effect').text(potion.effect);
+            $('#produtos-price').text('$' + potion.price);
             $('#produtos-ingredients').html('<li>' + potion.ingredients.join('</li><li>') + '</li>');
         },'json');
     });

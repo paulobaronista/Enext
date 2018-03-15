@@ -85,37 +85,37 @@
                     <div class="col-xs-6 col-sm-4 col-md-4 text-center box">
                         <a href="#" data-toggle="modal" data-produto-id="1" data-target="#ModalProdutos">
                             <img class="img-responsive center-block" title="Aging Potion" alt="Aging Potion" src="img/products/aging-potion.png">
-                            <p>Aging Potion - <span>29.99</span></p>
+                            <p>Aging Potion - <span>$29.99</span></p>
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-4 text-center box">
                         <a href="#" data-toggle="modal" data-produto-id="2" data-target="#ModalProdutos">
                             <img class="img-responsive center-block" title="Bulgeye Potion" alt="Bulgeye Potion" src="img/products/bulgeye-potion.png">
-                            <p>Bulgeye Potion - <span>19.99</span></p>
+                            <p>Bulgeye Potion - <span>$19.99</span></p>
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-4 text-center box">
                         <a href="#" data-toggle="modal" data-produto-id="3" data-target="#ModalProdutos">
                             <img class="img-responsive center-block" title="Dragon Tonic" alt="Dragon Tonic" src="img/products/dragon-tonic.png">
-                            <p>Dragon Tonic - <span>64.99</span></p>
+                            <p>Dragon Tonic - <span>$64.99</span></p>
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-4 text-center box">
                         <a href="#" data-toggle="modal" data-produto-id="4" data-target="#ModalProdutos">
                             <img class="img-responsive center-block" title="Love Potion" alt="Love Potion" src="img/products/love-potion.png">
-                            <p>Love Potion - <span>29.99</span></p>
+                            <p>Love Potion - <span>$29.99</span></p>
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-4 text-center box">
                         <a href="#" data-toggle="modal" data-produto-id="5" data-target="#ModalProdutos">
                             <img class="img-responsive center-block" title="Polyjuice Potion" alt="Polyjuice Potion" src="img/products/polyjuice-potion.png">
-                            <p>Polyjuice Potion - <span>99.99</span></p>
+                            <p>Polyjuice Potion - <span>$99.99</span></p>
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-4 text-center box">
                         <a href="#" data-toggle="modal" data-produto-id="6" data-target="#ModalProdutos">
                             <img class="img-responsive center-block" title="Sleeping Draught" alt="Sleeping Draught" src="img/products/sleeping-draught.png">
-                            <p>Sleeping Draught - <span>29.99</span></p>
+                            <p>Sleeping Draught - <span>$29.99</span></p>
                         </a>
                     </div>
                 </div>
@@ -170,18 +170,23 @@
         <div class="modal fade" id="ModalProdutos" tabindex="-1" role="dialog" aria-labelledby="ModalProdutos">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                    </div>
+                    <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
                     <div class="modal-body">
-                        <img id="produto-image" src="img/products/aging-potion.png">
-                        <p id="produto-nome"></p>
-                        <ul id="produtos-ingredients"></ul>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <img id="produto-image" class="img-responsive center-block" src="img/products/aging-potion.png">
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 info">
+                                <p class="titulo" id="produto-nome"></p>
+                                <p class="titulo mt-20">Use/Effect:</p>
+                                <p class="texto" id="produto-effect"></p>
+                                <p class="titulo mt-20">Ingredients:</p>
+                                <ul id="produtos-ingredients"></ul>
+                                <p class="titulo mt-20">Price:</p>
+                                <p class="price" id="produtos-price"></p>
+                                <button type="submit" class="btn">ADD TO CART</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

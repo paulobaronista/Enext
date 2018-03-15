@@ -31,3 +31,58 @@
 p {
     margin: 0;
 }
+.modal-content {
+    padding: 40px 0;
+}
+.info .titulo {
+    font-family: 'Droid Serif';
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #000;
+}
+.info .texto {
+    font-family: "Helvetica Neue",sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    margin-top: 20px;
+}
+.info ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+.info ul li {
+    list-style: none;
+}
+.info .mt-20 {
+    margin-top: 20px;
+}
+.info .price {
+    font-family: 'Droid Serif';
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #d73a1e;
+    margin-top: 5px;
+}
+.info button,
+.info button:hover {
+    background-color: #d73a1e;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: none;
+    filter: alpha(opacity=1);
+    opacity: 1;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
